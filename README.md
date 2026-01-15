@@ -1,67 +1,28 @@
-# School as a project
-A C# console application for managing students in schools. Add, view, and delete students from the school list.
-Project Structure
-Main Classes
-Student - class representing a student:
+# School Management System
 
-Properties: First Name, Last Name, Age
+**C# console application for student management**
 
-Constructor for initializing student data
+## About
+This is a simple console application that allows managing students in a school:
+- Add students
+- View student list
+- Remove students
+- Interactive interface
 
-School - class representing a school:
+## Quick Start
+1. Clone repo
+2. Compile: `csc Program.cs`
+3. Run: `SchoolManagement.exe`
 
-Properties: School Name, List of Students
+## Code Structure
+- Student class (name, surname, age)
+- School class (student list, management methods)
+- Main program with user interface
 
-Methods:
+## Usage
+Run the program and follow the prompts. All interactions are in Russian.
 
-AddNewStudent() - adds a new student
-
-PrintStudents() - displays the list of students in table format
-
-BanStudents() - removes a student by sequential number
-
-Program - main class with entry point:
-
-Implements an interactive menu for school management
-
-Handles user input
-
-Functionality
-Core Features:
-✅ Create a school with a custom name
-
-✅ Add new students (first name, last name, age)
-
-✅ View all students in a formatted table
-
-✅ Remove students by sequential number
-
-✅ Input validation when removing students
-
-✅ Interactive menu with continuous execution
-
-Implementation Details:
-Uses List<Student> collection for storing students
-
-Formatted table output for student data
-
-Protection against invalid input when removing students
-
-Localized messages in Russian
-
-Technical Details
-Requirements:
-.NET Framework or .NET Core
-
-Console application
-
-Data Structure:
-text
-School
-├── Name
-└── List of Students
-    ├── Student 1
-    │   ├── First Name
-    │   ├── Last Name
-    │   └── Age
-    └── Student N...
+## Technologies
+- C#
+- .NET Framework
+- Console application
